@@ -1,0 +1,36 @@
+name: asocapp
+description: 'A new Flutter project.'
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0-216.1.beta
+
+dependencies:
+  connectivity_plus: ^6.1.0
+  dartz: ^0.10.1
+  device_info_plus: ^11.1.1
+  easy_localization: ^3.0.7
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  go_router: ^14.4.1
+  http: ^1.2.2
+  intl: ^0.19.0
+  logger: ^2.4.0
+  provider: ^6.1.2
+  timezone: ^0.10.0
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/translations/
